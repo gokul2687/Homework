@@ -1,0 +1,760 @@
+body {
+    font-size: medium;
+    font-weight: 400;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* nav bar style */
+#navbar {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 0px;
+    background-color: #EFEFEF;
+}
+
+#navicontent {
+    height: 50px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo {
+    mix-blend-mode: darken;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rgb(255, 133, 103);
+    text-decoration: underline;
+}
+
+.login {
+    padding: 5px;
+    border-radius: 50px;
+    width: 75px;
+    background-color: rgb(255, 133, 103);
+    color: #EFEFEF;
+    border: none;
+    height: 35px;
+}
+
+.login:hover {
+    color: rgb(255, 133, 103);
+    border: 1px solid black;
+    border-color: rgb(255, 133, 103);
+    background-color: white;
+}
+
+
+/* homepage style */
+#homepage {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 650px 650px;
+    gap: 50px;
+    padding: 100px;
+    background-color: #EFEFEF;
+
+}
+
+#homeimg {
+    mix-blend-mode: darken;
+    /* width: 700px; */
+}
+
+#para {
+    padding-top: 100px;
+    font-size: medium;
+
+}
+
+#head1 {
+    font-size: 47px;
+    color: rgb(255, 133, 103);
+
+}
+
+.btn {
+    padding: 5px;
+    margin-top: 30px;
+    border-radius: 5px;
+    width: 140px;
+    background-color: rgb(255, 133, 103);
+    color: #EFEFEF;
+    border: none;
+    height: 40px;
+}
+
+.btn:hover {
+    color: rgb(255, 133, 103);
+    border: 1px solid black;
+    border-color: rgb(255, 133, 103);
+    background-color: white;
+}
+
+/* sub home page */
+#subhomepage {
+    display: grid;
+    grid-template-columns: 1rem 1rem 1rem;
+    gap: 450px;
+}
+
+.work {
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px;
+    width: 350px;
+    height: 100px;
+    margin-top: 100px;
+    background-color: white;
+    text-align: center;
+    padding-top: 60px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+#midbox {
+    background-color: rgb(255, 133, 103);
+}
+
+#midbox:hover {
+    background-color: white;
+}
+
+.hide {
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+    text-align: center;
+    transition: bottom 0.5s;
+}
+
+.work:hover {
+    background-color: rgb(255, 133, 103);
+    height: 150px;
+    scale: 1.2;
+    transition-timing-function: ease-in-out;
+}
+
+.work:hover .hide {
+    bottom: 0;
+}
+
+/* about page */
+#aboutpage {
+    height: 120vh;
+}
+
+.aboutheading {
+    text-align: center;
+    padding-top: 105px;
+    color: rgb(255, 133, 103);
+}
+
+#aboutus {
+    display: grid;
+    grid-template-columns: 650px 650px;
+    padding: 100px;
+    gap: 10px;
+
+}
+
+#aboutheading {
+    color: rgb(255, 133, 103);
+}
+
+#subabout {
+    background-color: #EFEFEF;
+    height: 90vh;
+}
+
+#subheading {
+    text-align: center;
+    padding-top: 40px;
+    color: rgb(255, 133, 103);
+}
+
+#background {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.one {
+    opacity: 0.67;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+#why {
+
+    box-shadow: 1px 1px 5px 1px;
+    margin-left: 220px;
+    padding: 30px;
+    position: absolute;
+    width: 950px;
+    background-color: white;
+}
+
+/* service page */
+#servicepage {
+    /* border: 1px solid black; */
+    height: 150vh;
+}
+
+#serviceheading {
+    color: rgb(255, 133, 103);
+    text-align: center;
+
+}
+
+.card {
+    box-shadow: 1px 1px 5px 1px;
+    border-radius: 10px;
+    width: 260px;
+    background-color: #EFEFEF;
+    /* height: 400px; */
+}
+
+.card:hover {
+    scale: 1.1;
+    transition: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    /* grid-template-rows: 1/3; */
+    row-gap: 40px;
+    margin-left: 350px;
+}
+
+.aboutcard {
+    padding: 10px;
+}
+
+#renovation {
+    padding-top: 58px;
+}
+
+#plumbing {
+    padding-top: 65px;
+}
+
+#electrical {
+    padding-top: 5px;
+}
+
+.btun {
+    padding: 5px;
+    margin-left: 50px;
+    border-radius: 5px;
+    width: 140px;
+    background-color: rgb(255, 133, 103);
+    color: #EFEFEF;
+    mix-blend-mode: darken;
+    border: none;
+    height: 40px;
+}
+
+.btun:hover {
+    color: rgb(255, 133, 103);
+    border: 1px solid black;
+    border-color: rgb(255, 133, 103);
+    background-color: white;
+}
+
+.img {
+    mix-blend-mode: darken;
+}
+
+.head {
+    color: rgb(255, 133, 103);
+    text-align: center;
+    padding-top: -20px;
+}
+
+#livecount {
+    background-color: rgb(255, 133, 103);
+    /* border: 1px solid black; */
+    height: 40vh;
+}
+
+#count {
+    justify-content: space-evenly;
+    padding-top: 100px;
+    align-items: center;
+    display: flex;
+    color: #EFEFEF;
+}
+
+.inner {
+    display: flex;
+    /* padding-top: 20px; */
+}
+
+.counts {
+    margin-top: 12px;
+    /* border: 1px solid black; */
+    padding-left: 10px;
+}
+
+#contact {
+    /* border: 1px solid black; */
+    background-color: #EFEFEF;
+    margin-top: -23px;
+    height: 50vh;
+}
+
+#contactheading {
+    padding-top: 40px;
+    text-align: center;
+    color: rgb(255, 133, 103);
+}
+
+.iconborder {
+    width: 70px;
+    height: 70px;
+    border-radius: 70%;
+    background-color: rgb(255, 133, 103);
+}
+
+#iconone {
+    padding-top: 35px;
+    padding-left: 20px;
+}
+
+#icontwo {
+    padding-top: 35px;
+    padding-left: 20px;
+}
+
+#iconthree {
+    padding-top: 35px;
+    padding-left: 22px;
+}
+
+#icondiv {
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+#emailicon {
+    margin-left: 50px;
+}
+
+#phoneicon {
+    margin-left: 30px;
+}
+
+.iconheading {
+    color: rgb(255, 133, 103);
+}
+
+#footer {
+    /* border: 1px solid black; */
+    height: 80h;
+    padding-top: 50px;
+    background-color: rgb(255, 133, 103);
+}
+
+#foot {
+    display: flex;
+    justify-content: space-evenly;
+    color: #EFEFEF;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.h3 {
+    text-align: center;
+}
+
+#imgs {
+    mix-blend-mode: darken;
+    color: #EFEFEF;
+}
+
+#social {
+    padding-left: 100px;
+    padding-bottom: 20px;
+
+
+}
+
+#mail {
+    margin-top: -16px;
+    height: 7vh;
+    padding-top: 2px;
+    background-color: #EFEFEF;
+    color: rgb(255, 133, 103);
+    text-align: center;
+}
+
+#logindiv {
+    background-color: #EFEFEF;
+    height: 100vh;
+    position: relative;
+}
+
+#login {
+    background-color: #FBEEFF;
+    position: absolute;
+    box-shadow: 1px 1px 5px 1px;
+    display: flex;
+    border-radius: 10px;
+    width: 800px;
+    justify-content: space-evenly;
+    margin-left: 350px;
+    margin-top: 140px;
+}
+
+.inputbox {
+    margin-top: 4px;
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #6A3166;
+}
+
+#loginimg {
+    mix-blend-mode: darken;
+}
+
+#loginbtn {
+    padding: 5px;
+    border-radius: 5px;
+    width: 103%;
+    background-color: #6A3166;
+    color: #EFEFEF;
+    mix-blend-mode: darken;
+    /* border: none; */
+    height: 40px;
+}
+
+#loginbtn:hover {
+    background-color: white;
+    color: #6A3166;
+    border-color: #6A3166;
+}
+
+#signuppage {
+    background-color: #EFEFEF;
+    height: 100vh;
+    position: relative;
+}
+
+#signup {
+    background-color: #FBEEFF;
+    position: absolute;
+    box-shadow: 1px 1px 5px 1px;
+    display: flex;
+    border-radius: 10px;
+    width: 800px;
+    justify-content: space-evenly;
+    margin-left: 350px;
+    margin-top: 40px;
+}
+
+#signupimg {
+    margin-top: 80px;
+    mix-blend-mode: darken;
+}
+
+#signupbtn {
+    padding: 5px;
+    border-radius: 5px;
+    width: 103%;
+    background-color: #6A3166;
+    color: #EFEFEF;
+    mix-blend-mode: darken;
+    height: 40px;
+}
+
+#signupbtn:hover {
+    background-color: white;
+    color: #6A3166;
+    border-color: #6A3166;
+
+}
+
+#email {
+    margin-left: 1px;
+}
+
+.errormsg {
+    color: rgb(242, 18, 18);
+    font-size: 16px;
+    position: fixed;
+}
+
+.input-field.success input {
+
+    border-color: #0cc477;
+}
+
+.input-field.error input {
+    border-color: rgb(242, 18, 18);
+}
+
+.loginerror {
+    color: rgb(242, 18, 18);
+    font-size: 16px;
+    position: fixed;
+}
+
+.login-field.success input {
+    border-color: #0cc477;
+}
+
+.login-field.error input {
+    border-color: rgb(242, 18, 18);
+}
+
+/* plumbing section */
+
+#plumbingsection {
+
+    margin-top: -22px;
+    height: 100vh;
+    background-color: #EFEFEF;
+    /* border: 1px solid black; */
+}
+
+#plumbingheading {
+    padding-top: 40px;
+    text-align: center;
+    color: rgb(255, 133, 103);
+}
+
+#plumbingpara {
+    text-align: center;
+    color: rgb(255, 133, 103);
+}
+
+#formdivision {
+    background-color: #EFEFEF;
+    position: absolute;
+    top: 170px;
+    box-shadow: 1px 1px 5px 1px;
+    display: flex;
+    border-radius: 10px;
+    width: 800px;
+    max-height: 450px;
+    overflow: scroll;
+    justify-content: space-evenly;
+    margin-left: 350px;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.input {
+    margin-top: 4px;
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(255, 133, 103);
+}
+
+#submitbtn {
+    padding: 5px;
+    border-radius: 5px;
+    width: 103%;
+    background-color: rgb(255, 133, 103);
+    color: #EFEFEF;
+    /* mix-blend-mode:darken; */
+    height: 40px;
+    border-color: rgb(255, 133, 103);
+}
+
+#submitbtn:hover {
+    background-color: #EFEFEF;
+    color: rgb(255, 133, 103);
+    border-color: rgb(255, 133, 103);
+}
+
+.side {
+    margin-top: 10px;
+    display: inline;
+    margin-left: 180px;
+    padding: 30px;
+    opacity: 0.67;
+
+}
+
+#back {
+    margin-left: 350px;
+
+}
+
+#confirmationdivision {
+    text-align: center;
+    height: 91vh;
+    padding-top: 65px;
+    background-color: #EFEFEF;
+}
+
+#cimg {
+    mix-blend-mode: darken;
+}
+
+/* cleaning */
+.serviceerror {
+    color: rgb(242, 18, 18);
+    font-size: 16px;
+    /* position: fixed; */
+}
+
+.inputdiv.success input {
+
+    border-color: #0cc477;
+}
+
+.inputdiv.error input {
+    border-color: rgb(242, 18, 18);
+}
+
+.inputdiv.success select {
+    border-color: #0cc477;
+}
+
+.inputdiv.error select {
+    border-color: rgb(242, 18, 18);
+}
+
+/* electrical */
+
+.electricalerror {
+    color: rgb(242, 18, 18);
+    font-size: 16px;
+    /* position: fixed; */
+}
+
+.ediv.success input {
+
+    border-color: #0cc477;
+}
+
+.ediv.error input {
+    border-color: rgb(242, 18, 18);
+}
+
+.ediv.success select {
+    border-color: #0cc477;
+}
+
+.ediv.error select {
+    border-color: rgb(242, 18, 18);
+}
+
+/* electronic */
+
+.electronicerror {
+    color: rgb(242, 18, 18);
+    font-size: 16px;
+    /* position: fixed; */
+}
+
+.electronicdiv.success input {
+
+    border-color: #0cc477;
+}
+
+.electronicdiv.error input {
+    border-color: rgb(242, 18, 18);
+}
+
+.electronicdiv.success select {
+    border-color: #0cc477;
+}
+
+.electronicdiv.error select {
+    border-color: rgb(242, 18, 18);
+}
+
+/* painting */
+.paintingerror {
+    color: rgb(242, 18, 18);
+    font-size: 16px;
+}
+
+.paintingdiv.success input {
+
+    border-color: #0cc477;
+}
+
+.paintingdiv.error input {
+    border-color: rgb(242, 18, 18);
+}
+
+.paintingdiv.success select {
+    border-color: #0cc477;
+}
+
+.paintingdiv.error select {
+    border-color: rgb(242, 18, 18);
+}
+
+/* plumbing */
+.plumbingerror {
+    color: rgb(242, 18, 18);
+    font-size: 16px;
+}
+
+.plumbingdiv.success input {
+
+    border-color: #0cc477;
+}
+
+.plumbingdiv.error input {
+    border-color: rgb(242, 18, 18);
+}
+
+.plumbingdiv.success select {
+    border-color: #0cc477;
+}
+
+.plumbingdiv.error select {
+    border-color: rgb(242, 18, 18);
+}
+
+/* renovation */
+
+.renovationerror {
+    color: rgb(242, 18, 18);
+    font-size: 16px;
+}
+
+.renovationdiv.success input {
+
+    border-color: #0cc477;
+}
+
+.renovationdiv.error input {
+    border-color: rgb(242, 18, 18);
+}
+
+.renovationdiv.success select {
+    border-color: #0cc477;
+}
+
+.renovationdiv.error select {
+    border-color: rgb(242, 18, 18);
+}
